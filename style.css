@@ -2,5 +2,28 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0;
+}
+
+header {
+    background-color: #1F2937;
     padding: 0 10vw;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
 }
