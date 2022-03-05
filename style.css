@@ -97,3 +97,48 @@ nav ul {
     padding: 0;
     text-align: center;
 }
+
+.two {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 100;
+    padding: 75px 230px;
+}
+
+.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.blue-box {
+    height: 160px;
+    width: 1000px;
+    background-color: #3882F6;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #E5E7EB;
+}
+
+.bb-left {
+    padding-left: 120px;
+}
+
+.bb-right {
+    padding-right: 150px;
+}
+
+.bb-right button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 3px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
+}
