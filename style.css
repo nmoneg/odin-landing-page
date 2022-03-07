@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap");
 
 body {
     display: flex;
@@ -21,39 +21,50 @@ nav {
 }
 
 nav a {
-    color: #F9FAF8;
+    color: #E5E7EB;
     text-decoration: none;
+    font-size: 18px;
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
-    gap: 20px;
+    gap: 25px;
 }
 
 .intro {
-    padding: 100px 0;
+    padding: 55px 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 40px;
 }
 
 .intro-left {
-    width: 50%;
-    
+    width: 45%;
+    padding: 0 0 90px 0;
 }
 
 .intro-left h1 {
     font-size: 48px;
     font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.intro-left p {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .intro-right {
     background-color: rgb(109, 116, 125);
-    width: 50%;
+    width: 55%;
+    height: 230px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 18px;
 }
 
 .intro button {
@@ -84,6 +95,8 @@ nav ul {
     display: flex;
     justify-content: center;
     padding: 0 225px;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .card-container img {
@@ -101,10 +114,13 @@ nav ul {
 .two {
     background-color: #E5E7EB;
     font-size: 36px;
-    font-style: italic;
     color: #1F2937;
-    font-weight: 100;
     padding: 75px 230px;
+}
+
+.two footer {
+    font-size: 24px;
+    text-align: right;
 }
 
 .three {
@@ -129,6 +145,7 @@ nav ul {
     padding-left: 120px;
 }
 
+
 .bb-right {
     padding-right: 150px;
 }
@@ -141,4 +158,14 @@ nav ul {
     font-weight: bold;
     border: 2px solid #E5E7EB;
     border-radius: 10px;
+}
+
+body > footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 45px 0;
+    color: #F9FAF8;
+    font-size: 18px;
 }
